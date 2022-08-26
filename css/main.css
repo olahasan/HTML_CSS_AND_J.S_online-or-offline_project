@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: system-ui; */
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+ul {
+    position: relative;
+    left: 40px;
+}
+
+.reload {
+    padding: 9px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
